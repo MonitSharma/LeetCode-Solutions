@@ -1,0 +1,52 @@
+.table {
+  .row {
+    justify-content: center;
+  }
+
+  thead {
+    > tr:first-child {
+      display: none;
+    }
+
+    > tr th {
+      background: white;
+      position: sticky;
+      top: 0;
+    }
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .easy {
+    background-color: #5cb85c;
+  }
+
+  .medium {
+    background-color: #f0ad4e;
+  }
+
+  .hard {
+    background-color: #d9534f;
+  }
+
+  .companies,
+  .patterns {
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .companies img {
+    padding: 5px;
+  }
+
+  .react-toggle {
+    top: 7px;
+  }
+
+  .reset-button {
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+}
