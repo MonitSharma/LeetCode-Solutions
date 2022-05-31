@@ -1,4 +1,4 @@
-# Solutions to the Leetcode Solutions in Python
+# Solutions to the Leetcode Problems 
 My Work on Leetcode Problems
 Check my account [here](https://leetcode.com/monitsharma/)
 
