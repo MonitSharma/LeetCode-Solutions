@@ -7,7 +7,9 @@ Check my account [here](https://leetcode.com/monitsharma/)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/twosum.py) |Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/addtwonumbers.py) |Easy|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/search_insert_position.py) |Easy|
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/critical_connections_in_a_network.py)|Hard|
 |29|[Divide two Integers](https://leetcode.com/problems/divide-two-integers/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/divide%20two%20integers.cpp), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/divide%20two%20integers.java), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/divide%20two%20integers.js), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/divide%20two%20integers.py) |Medium|
 |32|[Loading Valid Parantheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/loading_paranthesis.cpp), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/loading_paranthesis.java), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/loading_paranthesis.js), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/loading_paranthesis.py) |Hard|
@@ -26,6 +28,9 @@ Check my account [here](https://leetcode.com/monitsharma/)
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |   [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.java), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.cpp), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.js) |Medium|
 |474|[Ones and Zeros](https://leetcode.com/problems/ones-and-zeroes/) |   [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/ones%20and%20zero.java), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/ones%20and%20zero.py), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/ones%20and%20zero.cpp), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/ones%20and%20zero.js) |Medium|
  |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/palindrome.py) |Easy|
+|6|[ZigZag conversion](https://leetcode.com/problems/zigzag-conversion/) |   [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/zigzag%20conversion.js), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/zigzag%20conversion.cpp) |Medium|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/unique_paths_2.py) |Medium|  
+ 
   
   
  
