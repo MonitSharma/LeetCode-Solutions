@@ -2,7 +2,7 @@
 My Work on Leetcode Problems
 Check my account [here](https://leetcode.com/monitsharma/)
 
-<li> There are new LeetCode questions every day. I'll keep updating for full summary and better solutions.
+<li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
 
 | # | Title | Solution | Difficulty |
