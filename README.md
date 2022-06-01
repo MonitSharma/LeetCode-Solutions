@@ -30,6 +30,7 @@ Check my account [here](https://leetcode.com/monitsharma/)
  |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/palindrome.py) |Easy|
 |6|[ZigZag conversion](https://leetcode.com/problems/zigzag-conversion/) |   [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/zigzag%20conversion.js), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/zigzag%20conversion.cpp) |Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/unique_paths_2.py) |Medium|  
+|1480|[Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) |   [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/running%20sum%20of%201d%20array.java), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/running%20sum%20of%201d%20array.py), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/running%20sum%20of%201d%20array.cpp), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/running%20sum%20of%201d%20array.js) |Easy|
  
   
   
