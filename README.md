@@ -44,6 +44,9 @@ Check my account [here](https://leetcode.com/monitsharma/)
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |  [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/contains%20duplicate.java) |Easy|  
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.py), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.java), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.cpp), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.js) |Medium| 
 |700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/search%20in%20a%20binary%20search%20tree.js) | Easy|
+|25| [Reverse Nodes in k-groups](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/reverse%20nodes%20in%20k%20groups.py) |Hard|
+ 
+
 
   
   
