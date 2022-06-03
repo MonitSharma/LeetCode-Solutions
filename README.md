@@ -43,6 +43,7 @@ Check my account [here](https://leetcode.com/monitsharma/)
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/concatenated%20words.py), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/concatenated%20words.java), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/concatenated%20words.cpp) |Hard| 
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |  [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/contains%20duplicate.java) |Easy|  
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) |   [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.py), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.java), [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.cpp), [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/range%20sum%20query%202D%20-%20immutable.js) |Medium| 
+|700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/search%20in%20a%20binary%20search%20tree.js) | Easy|
 
   
   
