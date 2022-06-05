@@ -1,4 +1,4 @@
-lass Solution:
+class Solution:
     def totalNQueens(self, N: int) -> int:
         self.ans = 0
 
