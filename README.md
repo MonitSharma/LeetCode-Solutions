@@ -61,6 +61,7 @@ Check my account [here](https://leetcode.com/monitsharma/)
 |160| [Intersection of two linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/intersection%20of%20two%20linked%20lists.cpp), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/intersection%20of%20two%20linked%20lists.java),  [JavaScript](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/intersection%20of%20two%20linked%20lists.js), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/intersection%20of%20two%20linked%20lists.py) | Easy|
 |2286| [Booking concert tickets in groups](https://leetcode.com/problems/booking-concert-tickets-in-groups/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/booking%20concert%20tickets%20in%20groups.cpp) |Hard|
 |1394| [ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/find%20lucky%20integer%20in%20an%20array.java) |Easy|
+|1622|[Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/fancy%20sequence.cpp) |Hard|
 
 
  
