@@ -1,5 +1,6 @@
 # Solutions to the Leetcode Problems 
 My Work on Leetcode Problems
+Check all the leetcode solutions here , in different programming languages like Java, Python, C, C++, JavaScript ....
 Check my account [here](https://leetcode.com/monitsharma/)
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
