@@ -3,6 +3,18 @@ My Work on Leetcode Problems
 Check all the leetcode solutions here , in different programming languages like Java, Python, C, C++, JavaScript ....
 Check my account [here](https://leetcode.com/monitsharma/)
 
+### Current Stats
+
+Easy : 18/576
+
+Medium : 25/1220
+
+Hard : 21/500
+
+Total Problems Solved : 64/2296 (2.8%)
+
+Rank : 749,152
+
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
 
