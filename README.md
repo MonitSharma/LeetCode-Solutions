@@ -64,8 +64,7 @@ Check my account [here](https://leetcode.com/monitsharma/)
 |2286| [Booking concert tickets in groups](https://leetcode.com/problems/booking-concert-tickets-in-groups/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/booking%20concert%20tickets%20in%20groups.cpp) |Hard|
 |1394| [ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/find%20lucky%20integer%20in%20an%20array.java) |Easy|
 |1622|[Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/fancy%20sequence.cpp) |Hard|
-
-
+|1332|[Remove Palindromic Subsequence](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/remove%20palindromic%20subsequence.java) |Easy|
  
 
 
