@@ -78,7 +78,7 @@ Rank : 749,152
 |1622|[Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/fancy%20sequence.cpp) |Hard|
 |1332|[Remove Palindromic Subsequence](https://leetcode.com/problems/remove-palindromic-subsequences/) | [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/remove%20palindromic%20subsequence.java) |Easy|
 |2035| [Partition Arrays into two arrays to minimize the sum difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | [C++](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.cpp), [Java](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Partition%20array%20into%20two%20arrays%20to%20minimize%20the%20difference.java), [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/Partition%20array%20into%20two%20arrays%20to%20minimize%20the%20difference.py) |Hard|
- 
+ |167| [TwoSum II input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/two%20sum%20II%20-%20input%20array%20is%20sorted.py) |Medium|
 
 
   
