@@ -5,13 +5,13 @@ Check my account [here](https://leetcode.com/monitsharma/)
 
 ### Current Stats
 
-Easy : 18/576
+Easy : 22/576
 
-Medium : 25/1220
+Medium : 30/1220
 
-Hard : 21/500
+Hard : 23/500
 
-Total Problems Solved : 64/2296 (2.8%)
+Total Problems Solved : 75/2296 (3.3%)
 
 Rank : 749,152
 
