@@ -9,11 +9,11 @@ Easy : 24/576
 
 Medium : 44/1220
 
-Hard : 24/500
+Hard : 26/500
 
-Total Problems Solved : 92/2296 (4%)
+Total Problems Solved : 94/2296 (4.1%)
 
-Rank : 553,941
+Rank : 486,085
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
