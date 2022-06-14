@@ -1,5 +1,3 @@
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
-        if n < 1: return False
-        ans = log(n, 3)
-        return abs(ans - round(ans)) < 1e-10
+        return n > 0 and 1162261467 % n == 0
