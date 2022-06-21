@@ -1,9 +1,9 @@
 class Solution:
-    def findErrorNums(self, nums: List[int]) -> List[int]:
-        N, dupe = len(nums), 0
-        seen, sumN = [0] * (N+1), N * (N+1) // 2
+    def findErrorNums(self, nums):
+        ans = [0,0]
         for num in nums:
-            sumN -= num
-            if seen[num]: dupe = num
-            seen[num] += 1
-        return [dupe, sumN + dupe]
+            nums[(num - 1) % 10000] += 10000
+        for i in range(len(nums)):
+            if nums[i] > 20000: ans[0] = i + 1
+            elif nums[i] < 10001: ans[1] = i + 1
+        return ans
