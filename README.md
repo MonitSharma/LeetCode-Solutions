@@ -5,15 +5,15 @@ Check my account [here](https://leetcode.com/monitsharma/)
 
 ### Current Stats
 
-Easy : 27/576
+Easy : 35/576
 
-Medium : 52/1220
+Medium : 78/1220
 
-Hard : 31/500
+Hard : 47/500
 
-Total Problems Solved : 110/2296 (4.8%)
+Total Problems Solved : 160/2296 (6.9%)
 
-Rank : 438,327
+Rank : 298,813
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
