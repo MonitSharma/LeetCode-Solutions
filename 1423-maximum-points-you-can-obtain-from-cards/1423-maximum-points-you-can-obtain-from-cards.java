@@ -1,13 +1,19 @@
-class Solution:
-  def maxScore(self, cardPoints: List[int], k: int) -> int:
-    n = len(cardPoints)
-    summ = sum(cardPoints)
-    windowSum = sum(cardPoints[:n - k])
-    ans = summ - windowSum
+class Solution {
+  public int maxScore(int[] cardPoints, int k) {
+    final int n = cardPoints.length;
+    final int sum = Arrays.stream(cardPoints).sum();
+    int windowSum = 0;
+    for (int i = 0; i < n - k; ++i)
+      windowSum += cardPoints[i];
 
-    for i in range(k):
-      windowSum -= cardPoints[i]
-      windowSum += cardPoints[i + n - k]
-      ans = max(ans, summ - windowSum)
+    int ans = sum - windowSum;
 
-    return ans
+    for (int i = 0; i < k; ++i) {
+      windowSum -= cardPoints[i];
+      windowSum += cardPoints[i + n - k];
+      ans = Math.max(ans, sum - windowSum);
+    }
+
+    return ans;
+  }
+}
