@@ -1,1 +1,3 @@
-const minPartitions = n => Math.max(...n.split(''))
+class Solution:
+    def minPartitions(self, n: str) -> int:
+        return max(n)
