@@ -1,31 +1,23 @@
-class Solution {
-  public List<String> wordBreak(String s, List<String> wordDict) {
-    Set<String> wordSet = new HashSet<>(wordDict);
-    Map<String, List<String>> memo = new HashMap<>();
-    return wordBreak(s, wordSet, memo);
-  }
+class Solution:
+  def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
+    wordSet = set(wordDict)
 
-  private List<String> wordBreak(final String s, Set<String> wordSet,
-                                 Map<String, List<String>> memo) {
-    if (memo.containsKey(s))
-      return memo.get(s);
+    @lru_cache(None)
+    def wordBreak(s: str) -> List[str]:
+      ans = []
 
-    List<String> ans = new ArrayList<>();
+      # 1 <= len(prefix) < len(s)
+      for i in range(1, len(s)):
+        prefix = s[0:i]
+        suffix = s[i:]
+        if prefix in wordSet:
+          for word in wordBreak(suffix):
+            ans.append(prefix + ' ' + word)
 
-    // 1 <= prefix.length() < s.length()
-    for (int i = 1; i < s.length(); ++i) {
-      final String prefix = s.substring(0, i);
-      final String suffix = s.substring(i);
-      if (wordSet.contains(prefix))
-        for (final String word : wordBreak(suffix, wordSet, memo))
-          ans.add(prefix + " " + word);
-    }
+      # contains whole string, so don't add any space
+      if s in wordSet:
+        ans.append(s)
 
-    // contains whole string, so don't add any space
-    if (wordSet.contains(s))
-      ans.add(s);
+      return ans
 
-    memo.put(s, ans);
-    return ans;
-  }
-}
+    return wordBreak(s)
