@@ -1,24 +1,20 @@
-class Solution {
-  public int calculate(String s) {
-    int ans = 0;
-    int num = 0;
-    int sign = 1;
-    Deque<Integer> stack = new ArrayDeque<>(); // stack.peek(): current env's sign
-    stack.push(sign);
+class Solution:
+  def calculate(self, s: str) -> int:
+    ans = 0
+    num = 0
+    sign = 1
+    stack = [sign]  # stack[-1]: current env's sign
 
-    for (final char c : s.toCharArray())
-      if (Character.isDigit(c))
-        num = num * 10 + (c - '0');
-      else if (c == '(')
-        stack.push(sign);
-      else if (c == ')')
-        stack.pop();
-      else if (c == '+' || c == '-') {
-        ans += sign * num;
-        sign = (c == '+' ? 1 : -1) * stack.peek();
-        num = 0;
-      }
+    for c in s:
+      if c.isdigit():
+        num = num * 10 + (ord(c) - ord('0'))
+      elif c == '(':
+        stack.append(sign)
+      elif c == ')':
+        stack.pop()
+      elif c == '+' or c == '-':
+        ans += sign * num
+        sign = (1 if c == '+' else -1) * stack[-1]
+        num = 0
 
-    return ans + sign * num;
-  }
-}
+    return ans + sign * num
