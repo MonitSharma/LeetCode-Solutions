@@ -1,31 +1,32 @@
-class Solution {
-  public String numberToWords(int num) {
-    return num == 0 ? "Zero" : helper(num);
-  }
+class Solution:
+  def numberToWords(self, num: int) -> str:
+    if num == 0:
+      return "Zero"
 
-  private final String[] belowTwenty = {"",        "One",     "Two",       "Three",    "Four",
-                                        "Five",    "Six",     "Seven",     "Eight",    "Nine",
-                                        "Ten",     "Eleven",  "Twelve",    "Thirteen", "Fourteen",
-                                        "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
-  private final String[] tens = {"",      "",      "Twenty",  "Thirty", "Forty",
-                                 "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+    belowTwenty = ["",        "One",       "Two",      "Three",
+                   "Four",    "Five",      "Six",      "Seven",
+                   "Eight",   "Nine",      "Ten",      "Eleven",
+                   "Twelve",  "Thirteen",  "Fourteen", "Fifteen",
+                   "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
+    tens = ["",      "Ten",   "Twenty",  "Thirty", "Forty",
+            "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]
 
-  private String helper(int num) {
-    StringBuilder s = new StringBuilder();
+    def helper(num: int) -> str:
+      if num < 20:
+        s = belowTwenty[num]
+      elif num < 100:
+        s = tens[num // 10] + " " + belowTwenty[num % 10]
+      elif num < 1000:
+        s = helper(num // 100) + " Hundred " + helper(num % 100)
+      elif num < 1000000:
+        s = helper(num // 1000) + " Thousand " + helper(num % 1000)
+      elif num < 1000000000:
+        s = helper(num // 1000000) + " Million " + \
+            helper(num % 1000000)
+      else:
+        s = helper(num // 1000000000) + " Billion " + \
+            helper(num % 1000000000)
 
-    if (num < 20)
-      s.append(belowTwenty[num]);
-    else if (num < 100)
-      s.append(tens[num / 10]).append(" ").append(belowTwenty[num % 10]);
-    else if (num < 1000)
-      s.append(helper(num / 100)).append(" Hundred ").append(helper(num % 100));
-    else if (num < 1000000)
-      s.append(helper(num / 1000)).append(" Thousand ").append(helper(num % 1000));
-    else if (num < 1000000000)
-      s.append(helper(num / 1000000)).append(" Million ").append(helper(num % 1000000));
-    else
-      s.append(helper(num / 1000000000)).append(" Billion ").append(helper(num % 1000000000));
+      return s.strip()
 
-    return s.toString().trim();
-  }
-}
+    return helper(num)
