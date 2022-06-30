@@ -1,17 +1,22 @@
-class Solution:
-  def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-    if left == 1:
-      return self.reverseN(head, right)
+class Solution {
+  public ListNode reverseBetween(ListNode head, int left, int right) {
+    if (left == 1)
+      return reverseN(head, right);
 
-    head.next = self.reverseBetween(head.next, left - 1, right - 1)
-    return head
+    head.next = reverseBetween(head.next, left - 1, right - 1);
 
-  def reverseN(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-    if n == 1:
-      return head
+    return head;
+  }
 
-    newHead = self.reverseN(head.next, n - 1)
-    headNext = head.next
-    head.next = headNext.next
-    headNext.next = head
-    return newHead
+  private ListNode reverseN(ListNode head, int n) {
+    if (n == 1)
+      return head;
+
+    ListNode newHead = reverseN(head.next, n - 1);
+    ListNode headNext = head.next;
+    head.next = headNext.next;
+    headNext.next = head;
+
+    return newHead;
+  }
+}
