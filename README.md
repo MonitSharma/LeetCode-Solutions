@@ -17,7 +17,9 @@ Rank : 244,465
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
-<li> Solutions are available for Problem 1 to Problem 100
+ Solutions are available for Problem 1 to Problem 100
+
+  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/twosum.py) |Easy|
