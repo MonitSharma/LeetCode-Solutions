@@ -5,19 +5,19 @@ Check my account [here](https://leetcode.com/monitsharma/)
 
 ### Current Stats
 
-Easy : 35/576
+Easy : 36/576
 
-Medium : 78/1220
+Medium : 96/1220
 
-Hard : 47/500
+Hard : 66/500
 
-Total Problems Solved : 160/2296 (6.9%)
+Total Problems Solved : 198/2296 (8.5%)
 
-Rank : 298,813
+Rank : 244,465
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
-
+<li> Solutions are available for Problem 1 to Problem 100
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/twosum.py) |Easy|
