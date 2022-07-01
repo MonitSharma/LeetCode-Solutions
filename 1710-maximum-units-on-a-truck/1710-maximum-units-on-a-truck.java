@@ -1,13 +1,10 @@
-class Solution {
-    public int maximumUnits(int[][] B, int T) {
-        Arrays.sort(B, (a,b) -> b[1] - a[1]);
-        int ans = 0;
-        for (int[] b : B) {
-            int count = Math.min(b[0], T);
-            ans += count * b[1];
-            T -= count;
-            if (T == 0) return ans;
-        }
-        return ans;
-    }
-}
+class Solution:
+    def maximumUnits(self, B: List[List[int]], T: int) -> int:
+        B.sort(key=lambda x: x[1], reverse=True)
+        ans = 0
+        for b,n in B:
+            boxes = min(b, T)
+            ans += boxes * n
+            T -= boxes
+            if T == 0: return ans
+        return ans
