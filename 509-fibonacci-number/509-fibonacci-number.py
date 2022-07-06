@@ -1,4 +1,7 @@
 class Solution:
     def fib(self, n: int) -> int:
-        sqrt5 = sqrt(5)
-        return int((pow(1 + sqrt5, n) - pow(1 - sqrt5, n)) / pow(2, n) / sqrt5)
+        if n < 2: return n
+        a, b = 0, 1
+        for _ in range(1,n):
+            a, b = b, a+b
+        return b
