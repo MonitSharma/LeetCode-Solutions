@@ -1,16 +1,5 @@
-class Solution {
-    public int[] searchRange(int[] N, int T) {
-        int Tleft = find(T, N, 0);
-        if (Tleft == N.length || N[Tleft] != T) return new int[] {-1, -1};
-        return new int[] {Tleft, find(T+1, N, Tleft) - 1};
-    }
-    public int find(int target, int[] arr, int left) {
-        int right = arr.length - 1;
-        while (left <= right) {
-            int mid = left + right >> 1;
-            if (arr[mid] < target) left = mid + 1;
-            else right = mid - 1;
-        }
-        return left;
-    }
-}
+class Solution:
+    def searchRange(self, N: List[int], T: int) -> List[int]:
+        Tleft = bisect_left(N, T)
+        if Tleft == len(N) or N[Tleft] != T: return [-1, -1]
+        return [Tleft, bisect_right(N, T) - 1]
