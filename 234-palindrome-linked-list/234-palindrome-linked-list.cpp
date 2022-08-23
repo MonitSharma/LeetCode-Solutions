@@ -1,39 +1,32 @@
-class Solution {
- public:
-  bool isPalindrome(ListNode* head) {
-    ListNode* slow = head;
-    ListNode* fast = head;
+class Solution:
+  def isPalindrome(self, head: ListNode) -> bool:
+    def reverseList(head: ListNode) -> ListNode:
+      prev = None
+      curr = head
 
-    while (fast && fast->next) {
-      slow = slow->next;
-      fast = fast->next->next;
-    }
+      while curr:
+        next = curr.next
+        curr.next = prev
+        prev = curr
+        curr = next
 
-    if (fast)
-      slow = slow->next;
-    slow = reverseList(slow);
+      return prev
 
-    while (slow) {
-      if (slow->val != head->val)
-        return false;
-      slow = slow->next;
-      head = head->next;
-    }
+    slow = head
+    fast = head
 
-    return true;
-  }
+    while fast and fast.next:
+      slow = slow.next
+      fast = fast.next.next
 
- private:
-  ListNode* reverseList(ListNode* head) {
-    ListNode* prev = nullptr;
+    if fast:
+      slow = slow.next
+    slow = reverseList(slow)
 
-    while (head) {
-      ListNode* next = head->next;
-      head->next = prev;
-      prev = head;
-      head = next;
-    }
+    while slow:
+      if slow.val != head.val:
+        return False
+      slow = slow.next
+      head = head.next
 
-    return prev;
-  }
-};
+    return True
