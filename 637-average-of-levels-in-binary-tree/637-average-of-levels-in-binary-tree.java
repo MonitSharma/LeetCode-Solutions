@@ -1,12 +1,17 @@
-class Solution:
-    def averageOfLevels(self, root: TreeNode) -> List[float]:
-        q, ans = [root], []
-        while len(q):
-            qlen, row = len(q), 0
-            for i in range(qlen):
-                curr = q.pop(0)
-                row += curr.val
-                if curr.left: q.append(curr.left)
-                if curr.right: q.append(curr.right)
-            ans.append(row/qlen)
-        return ans
+class Solution {
+    public List<Double> averageOfLevels(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>(List.of(root));
+        List<Double> ans = new ArrayList<>();
+        while (q.size() > 0) {
+            double qlen = q.size(), row = 0;
+            for (int i = 0; i < qlen; i++) {
+                TreeNode curr = q.poll();
+                row += curr.val;
+                if (curr.left != null) q.offer(curr.left);
+                if (curr.right != null) q.offer(curr.right);
+            }
+            ans.add(row/qlen);
+        }
+        return ans;
+    }
+}
