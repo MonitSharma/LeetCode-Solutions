@@ -1,28 +1,29 @@
 class Solution {
-  public List<List<Integer>> verticalTraversal(TreeNode root) {
-    List<List<Integer>> ans = new ArrayList<>();
-    TreeMap<Integer, List<int[]>> xToSortedPairs = new TreeMap<>(); // {x: {(-y, val)}}
+ public:
+  vector<vector<int>> verticalTraversal(TreeNode* root) {
+    vector<vector<int>> ans;
+    map<int, multiset<pair<int, int>>> xToSortedPairs;  // {x: {(-y, val)}}
 
     dfs(root, 0, 0, xToSortedPairs);
 
-    for (List<int[]> pairs : xToSortedPairs.values()) {
-      Collections.sort(pairs, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
-      List<Integer> vals = new ArrayList<>();
-      for (int[] pair : pairs)
-        vals.add(pair[1]);
-      ans.add(vals);
+    for (const auto& [_, pairs] : xToSortedPairs) {
+      vector<int> vals;
+      for (const auto& pair : pairs)
+        vals.push_back(pair.second);
+      ans.push_back(vals);
     }
 
     return ans;
   }
 
-  private void dfs(TreeNode root, int x, int y, TreeMap<Integer, List<int[]>> xToSortedPairs) {
-    if (root == null)
+ private:
+  void dfs(TreeNode* root, int x, int y,
+           map<int, multiset<pair<int, int>>>& xToSortedPairs) {
+    if (!root)
       return;
 
-    xToSortedPairs.putIfAbsent(x, new ArrayList<>());
-    xToSortedPairs.get(x).add(new int[] {y, root.val});
-    dfs(root.left, x - 1, y + 1, xToSortedPairs);
-    dfs(root.right, x + 1, y + 1, xToSortedPairs);
+    xToSortedPairs[x].emplace(y, root->val);
+    dfs(root->left, x - 1, y + 1, xToSortedPairs);
+    dfs(root->right, x + 1, y + 1, xToSortedPairs);
   }
-}
+};
