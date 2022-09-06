@@ -1,11 +1,9 @@
-class Solution {
-  public TreeNode pruneTree(TreeNode root) {
-    if (root == null)
-      return null;
-    root.left = pruneTree(root.left);
-    root.right = pruneTree(root.right);
-    if (root.left == null && root.right == null && root.val == 0)
-      return null;
-    return root;
-  }
-}
+class Solution:
+  def pruneTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+    if not root:
+      return None
+    root.left = self.pruneTree(root.left)
+    root.right = self.pruneTree(root.right)
+    if not root.left and not root.right and not root.val:
+      return None
+    return root
