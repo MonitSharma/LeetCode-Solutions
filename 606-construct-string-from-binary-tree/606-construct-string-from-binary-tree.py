@@ -1,15 +1,11 @@
-class Solution {
-  public String tree2str(TreeNode t) {
-    return dfs(t);
-  }
-
-  private String dfs(TreeNode root) {
-    if (root == null)
-      return "";
-    if (root.right != null)
-      return root.val + "(" + dfs(root.left) + ")(" + dfs(root.right) + ")";
-    if (root.left != null)
-      return root.val + "(" + dfs(root.left) + ")";
-    return root.val + "";
-  }
-}
+class Solution:
+  def tree2str(self, t: Optional[TreeNode]) -> str:
+    def dfs(root: Optional[TreeNode]) -> str:
+      if not root:
+        return ''
+      if root.right:
+        return str(root.val) + '(' + dfs(root.left) + ')(' + dfs(root.right) + ')'
+      if root.left:
+        return str(root.val) + '(' + dfs(root.left) + ')'
+      return str(root.val)
+    return dfs(t)
