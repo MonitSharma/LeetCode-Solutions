@@ -1,18 +1,19 @@
 class Solution {
-  public int[] findOriginalArray(int[] changed) {
-    List<Integer> ans = new ArrayList<>();
-    Queue<Integer> q = new ArrayDeque<>();
+ public:
+  vector<int> findOriginalArray(vector<int>& changed) {
+    vector<int> ans;
+    queue<int> q;
 
-    Arrays.sort(changed);
+    sort(begin(changed), end(changed));
 
-    for (final int num : changed)
-      if (!q.isEmpty() && num == q.peek()) {
-        q.poll();
+    for (const int num : changed)
+      if (!q.empty() && num == q.front()) {
+        q.pop();
       } else {
-        q.offer(num * 2);
-        ans.add(num);
+        q.push(num * 2);
+        ans.push_back(num);
       }
 
-    return q.isEmpty() ? ans.stream().mapToInt(i -> i).toArray() : new int[] {};
+    return q.empty() ? ans : vector<int>();
   }
-}
+};
