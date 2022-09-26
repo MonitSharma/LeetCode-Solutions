@@ -17,7 +17,7 @@ Medium : $139/1292$
 
 Hard : $80/534$
 
-Total Problems Solved : $271/2421 (11.2%)$
+Total Problems Solved : $271/2421$ (11.2%)
 
 Rank : 168,010
 
