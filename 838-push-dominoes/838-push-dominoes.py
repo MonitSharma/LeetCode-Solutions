@@ -1,32 +1,31 @@
-class Solution {
-  public String pushDominoes(String dominoes) {
-    char[] s = dominoes.toCharArray();
-    int L = -1;
-    int R = -1;
+class Solution:
+  def pushDominoes(self, dominoes: str) -> str:
+    ans = list(dominoes)
+    L = -1
+    R = -1
 
-    for (int i = 0; i <= dominoes.length(); ++i)
-      if (i == dominoes.length() || s[i] == 'R') {
-        if (L < R)
-          while (R < i)
-            s[R++] = 'R';
-        R = i;
-      } else if (s[i] == 'L') {
-        if (R < L || L == -1 && R == -1) {
-          if (L == -1 && R == -1)
-            ++L;
-          while (L < i)
-            s[L++] = 'L';
-        } else {
-          int l = R + 1;
-          int r = i - 1;
-          while (l < r) {
-            s[l++] = 'R';
-            s[r--] = 'L';
-          }
-        }
-        L = i;
-      }
+    for i in range(len(dominoes) + 1):
+      if i == len(dominoes) or dominoes[i] == 'R':
+        if L < R:
+          while R < i:
+            ans[R] = 'R'
+            R += 1
+        R = i
+      elif dominoes[i] == 'L':
+        if R < L or (L, R) == (-1, -1):
+          if (L, R) == (-1, -1):
+            L += 1
+          while L < i:
+            ans[L] = 'L'
+            L += 1
+        else:
+          l = R + 1
+          r = i - 1
+          while l < r:
+            ans[l] = 'R'
+            ans[r] = 'L'
+            l += 1
+            r -= 1
+        L = i
 
-    return new String(s);
-  }
-}
+    return ''.join(ans)
