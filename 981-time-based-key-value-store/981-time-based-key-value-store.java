@@ -1,34 +1,36 @@
-struct T {
-  string value;
-  int timestamp;
-  T(string value, int timestamp) : value(value), timestamp(timestamp) {}
-};
+class T {
+  public String value;
+  public int timestamp;
+  public T(String value, int timestamp) {
+    this.value = value;
+    this.timestamp = timestamp;
+  }
+}
 
 class TimeMap {
- public:
-  void set(string key, string value, int timestamp) {
-    map[key].emplace_back(value, timestamp);
+  public void set(String key, String value, int timestamp) {
+    map.putIfAbsent(key, new ArrayList<>());
+    map.get(key).add(new T(value, timestamp));
   }
 
-  string get(string key, int timestamp) {
-    if (!map.count(key))
+  public String get(String key, int timestamp) {
+    List<T> A = map.get(key);
+    if (A == null)
       return "";
 
-    const vector<T>& A = map[key];
     int l = 0;
     int r = A.size();
 
     while (l < r) {
-      const int m = (l + r) / 2;
-      if (A[m].timestamp > timestamp)
+      final int m = (l + r) / 2;
+      if (A.get(m).timestamp > timestamp)
         r = m;
       else
         l = m + 1;
     }
 
-    return l == 0 ? "" : A[l - 1].value;
+    return l == 0 ? "" : A.get(l - 1).value;
   }
 
- private:
-  unordered_map<string, vector<T>> map;
-};
+  private Map<String, List<T>> map = new HashMap<>();
+}
