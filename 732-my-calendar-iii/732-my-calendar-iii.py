@@ -1,18 +1,19 @@
-class MyCalendarThree {
-  public int book(int start, int end) {
-    timeline.merge(start, 1, Integer::sum);
-    timeline.merge(end, -1, Integer::sum);
+from sortedcontainers import SortedDict
 
-    int ans = 0;
-    int activeEvents = 0;
 
-    for (final int count : timeline.values()) {
-      activeEvents += count;
-      ans = Math.max(ans, activeEvents);
-    }
+class MyCalendarThree:
+  def __init__(self):
+    self.timeline = SortedDict()
 
-    return ans;
-  }
+  def book(self, start: int, end: int) -> int:
+    self.timeline[start] = self.timeline.get(start, 0) + 1
+    self.timeline[end] = self.timeline.get(end, 0) - 1
 
-  private Map<Integer, Integer> timeline = new TreeMap<>();
-}
+    ans = 0
+    activeEvents = 0
+
+    for count in self.timeline.values():
+      activeEvents += count
+      ans = max(ans, activeEvents)
+
+    return ans
