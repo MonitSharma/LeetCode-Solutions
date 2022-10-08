@@ -1,7 +1,5 @@
 # Solutions to the Leetcode Problems 
-
-----
-My Work on Leetcode Problems
+![alt text](https://leetcode.com/static/images/LeetCode_Sharing.png)
 ----
 
 
@@ -11,15 +9,15 @@ Check my account [here](https://leetcode.com/monitsharma/)
 ---
 # Current Stats
 
-Easy : $52/595$
+Easy : $52/597$
 
-Medium : $139/1292$
+Medium : $145/1298$
 
-Hard : $80/534$
+Hard : $82/536$
 
-Total Problems Solved : $271/2421$ (11.2%)
+Total Problems Solved : $279/2431$ (11.5%)
 
-Rank : 168,010
+Rank : $161,296$
 
 <li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
   
