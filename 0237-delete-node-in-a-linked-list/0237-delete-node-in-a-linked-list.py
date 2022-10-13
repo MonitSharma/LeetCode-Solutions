@@ -1,6 +1,4 @@
-class Solution {
-  public void deleteNode(ListNode node) {
-    node.val = node.next.val;
-    node.next = node.next.next;
-  }
-}
+class Solution:
+  def deleteNode(self, node):
+    node.val = node.next.val
+    node.next = node.next.next
