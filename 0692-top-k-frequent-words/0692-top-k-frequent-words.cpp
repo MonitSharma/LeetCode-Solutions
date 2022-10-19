@@ -1,26 +1,35 @@
+struct T {
+  string word;
+  int freq;
+  T(string word, int freq) : word(word), freq(freq) {}
+};
+
 class Solution {
  public:
   vector<string> topKFrequent(vector<string>& words, int k) {
-    const int n = words.size();
     vector<string> ans;
-    vector<vector<string>> bucket(n + 1);
     unordered_map<string, int> count;
+    // Words w/ higher frequency and lower alphabetical order are in the bottom
+    // Of the heap, because we'll pop words w/ lower frequency and higher
+    // Alphabetical order if the heap's size > k
+    auto compare = [](const T& a, const T& b) {
+      return a.freq == b.freq ? a.word < b.word : a.freq > b.freq;
+    };
+    priority_queue<T, vector<T>, decltype(compare)> heap(compare);
 
     for (const string& word : words)
       ++count[word];
 
-    for (const auto& [word, freq] : count)
-      bucket[freq].push_back(word);
-
-    for (int freq = n; freq > 0; --freq) {
-      sort(begin(bucket[freq]), end(bucket[freq]));
-      for (const string& word : bucket[freq]) {
-        ans.push_back(word);
-        if (ans.size() == k)
-          return ans;
-      }
+    for (const auto& [word, freq] : count) {
+      heap.emplace(word, freq);
+      if (heap.size() > k)
+        heap.pop();
     }
 
-    throw;
+    while (!heap.empty())
+      ans.push_back(heap.top().word), heap.pop();
+
+    reverse(begin(ans), end(ans));
+    return ans;
   }
 };
