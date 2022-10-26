@@ -1,37 +1,34 @@
 class Solution {
- public:
-  vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-    if (root == nullptr)
-      return {};
+  public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    if (root == null)
+      return new ArrayList<>();
 
-    vector<vector<int>> ans;
-    deque<TreeNode*> q{{root}};
-    bool isLeftToRight = true;
+    List<List<Integer>> ans = new ArrayList<>();
+    Deque<TreeNode> q = new ArrayDeque<>(Arrays.asList(root));
+    boolean isLeftToRight = true;
 
-    while (!q.empty()) {
-      vector<int> currLevel;
+    while (!q.isEmpty()) {
+      List<Integer> currLevel = new ArrayList<>();
       for (int sz = q.size(); sz > 0; --sz)
         if (isLeftToRight) {
-          TreeNode* node = q.front();
-          q.pop_front();
-          currLevel.push_back(node->val);
-          if (node->left)
-            q.push_back(node->left);
-          if (node->right)
-            q.push_back(node->right);
+          TreeNode node = q.pollFirst();
+          currLevel.add(node.val);
+          if (node.left != null)
+            q.addLast(node.left);
+          if (node.right != null)
+            q.addLast(node.right);
         } else {
-          TreeNode* node = q.back();
-          q.pop_back();
-          currLevel.push_back(node->val);
-          if (node->right)
-            q.push_front(node->right);
-          if (node->left)
-            q.push_front(node->left);
+          TreeNode node = q.pollLast();
+          currLevel.add(node.val);
+          if (node.right != null)
+            q.addFirst(node.right);
+          if (node.left != null)
+            q.addFirst(node.left);
         }
-      ans.push_back(currLevel);
+      ans.add(currLevel);
       isLeftToRight = !isLeftToRight;
     }
 
     return ans;
   }
-};
+}
