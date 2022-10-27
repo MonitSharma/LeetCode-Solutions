@@ -1,29 +1,20 @@
-class Solution {
-  public int largestOverlap(int[][] A, int[][] B) {
-    final int n = A.length;
-    final int magic = 100;
-    int ans = 0;
-    List<int[]> onesA = new ArrayList<>();
-    List<int[]> onesB = new ArrayList<>();
-    Map<Integer, Integer> map = new HashMap<>();
+class Solution:
+  def largestOverlap(self, A: List[List[int]], B: List[List[int]]) -> int:
+    n = len(A)
+    magic = 100
+    onesA = []
+    onesB = []
+    dict = defaultdict(int)
 
-    for (int i = 0; i < n; ++i)
-      for (int j = 0; j < n; ++j) {
-        if (A[i][j] == 1)
-          onesA.add(new int[] {i, j});
-        if (B[i][j] == 1)
-          onesB.add(new int[] {i, j});
-      }
+    for i in range(n):
+      for j in range(n):
+        if A[i][j] == 1:
+          onesA.append([i, j])
+        if B[i][j] == 1:
+          onesB.append([i, j])
 
-    for (int[] a : onesA)
-      for (int[] b : onesB) {
-        final int key = (a[0] - b[0]) * magic + a[1] - b[1];
-        map.put(key, map.getOrDefault(key, 0) + 1);
-      }
+    for a in onesA:
+      for b in onesB:
+        dict[(a[0] - b[0]) * magic + (a[1] - b[1])] += 1
 
-    for (final int value : map.values())
-      ans = Math.max(ans, value);
-
-    return ans;
-  }
-}
+    return max(dict.values()) if dict else 0
