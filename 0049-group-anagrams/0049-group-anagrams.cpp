@@ -1,9 +1,18 @@
-class Solution:
-  def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-    dict = defaultdict(list)
+class Solution {
+ public:
+  vector<vector<string>> groupAnagrams(vector<string>& strs) {
+    vector<vector<string>> ans;
+    unordered_map<string, vector<string>> keyToAnagrams;
 
-    for str in strs:
-      key = ''.join(sorted(str))
-      dict[key].append(str)
+    for (const string& str : strs) {
+      string key = str;
+      sort(begin(key), end(key));
+      keyToAnagrams[key].push_back(str);
+    }
 
-    return dict.values()
+    for (const auto& [_, anagrams] : keyToAnagrams)
+      ans.push_back(anagrams);
+
+    return ans;
+  }
+};
