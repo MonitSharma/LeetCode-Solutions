@@ -1,28 +1,29 @@
 class Solution {
-  public int nearestExit(char[][] maze, int[] entrance) {
-    final int m = maze.length;
-    final int n = maze[0].length;
-    final int[] dirs = {0, 1, 0, -1, 0};
+ public:
+  int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
+    const int m = maze.size();
+    const int n = maze[0].size();
+    const vector<int> dirs{0, 1, 0, -1, 0};
     int ans = 0;
-    Queue<int[]> q = new ArrayDeque<>(Arrays.asList(new int[] {entrance[0], entrance[1]}));
-    boolean[][] seen = new boolean[m][n];
+    queue<pair<int, int>> q{{{entrance[0], entrance[1]}}};
+    vector<vector<bool>> seen(m, vector<bool>(n));
     seen[entrance[0]][entrance[1]] = true;
 
-    while (!q.isEmpty()) {
+    while (!q.empty()) {
       ++ans;
       for (int sz = q.size(); sz > 0; --sz) {
-        final int i = q.peek()[0];
-        final int j = q.poll()[1];
+        const auto [i, j] = q.front();
+        q.pop();
         for (int k = 0; k < 4; ++k) {
-          final int x = i + dirs[k];
-          final int y = j + dirs[k + 1];
+          const int x = i + dirs[k];
+          const int y = j + dirs[k + 1];
           if (x < 0 || x == m || y < 0 || y == n)
             continue;
           if (seen[x][y] || maze[x][y] == '+')
             continue;
           if (x == 0 || x == m - 1 || y == 0 || y == n - 1)
             return ans;
-          q.offer(new int[] {x, y});
+          q.emplace(x, y);
           seen[x][y] = true;
         }
       }
@@ -30,4 +31,4 @@ class Solution {
 
     return -1;
   }
-}
+};
