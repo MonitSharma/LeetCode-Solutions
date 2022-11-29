@@ -1,42 +1,39 @@
-class RandomizedSet {
-  /**
-   * Inserts a value to the set. Returns true if the set did not already contain the specified
-   * element.
-   */
-  public boolean insert(int val) {
-    if (valToIndex.containsKey(val))
-      return false;
+class RandomizedSet:
+  def __init__(self):
+    """
+    Initialize your data structure here.
+    """
+    self.vals = []
+    self.valToIndex = defaultdict(int)
 
-    valToIndex.put(val, vals.size());
-    vals.add(val);
-    return true;
-  }
+  def insert(self, val: int) -> bool:
+    """
+    Inserts a value to the set. Returns true if the set did not already contain the specified element.
+    """
+    if val in self.valToIndex:
+      return False
 
-  /** Removes a value from the set. Returns true if the set contained the specified element. */
-  public boolean remove(int val) {
-    if (!valToIndex.containsKey(val))
-      return false;
+    self.valToIndex[val] = len(self.vals)
+    self.vals.append(val)
+    return True
 
-    final int index = valToIndex.get(val);
-    // Following two lines order are important when vals.size() == 1
-    valToIndex.put(last(vals), index);
-    valToIndex.remove(val);
-    vals.set(index, last(vals));
-    vals.remove(vals.size() - 1);
-    return true;
-  }
+  def remove(self, val: int) -> bool:
+    """
+    Removes a value from the set. Returns true if the set contained the specified element.
+    """
+    if val not in self.valToIndex:
+      return False
 
-  /** Get a random element from the set. */
-  public int getRandom() {
-    final int index = rand.nextInt(vals.size());
-    return vals.get(index);
-  }
+    index = self.valToIndex[val]
+    self.valToIndex[self.vals[-1]] = index
+    del self.valToIndex[val]
+    self.vals[index] = self.vals[-1]
+    self.vals.pop()
+    return True
 
-  private Map<Integer, Integer> valToIndex = new HashMap<>(); // {val: index in vals}
-  private List<Integer> vals = new ArrayList<>();
-  private Random rand = new Random();
-
-  private int last(List<Integer> vals) {
-    return vals.get(vals.size() - 1);
-  }
-}
+  def getRandom(self) -> int:
+    """
+    Get a random element from the set.
+    """
+    index = randint(0, len(self.vals) - 1)
+    return self.vals[index]
