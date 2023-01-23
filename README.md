@@ -7,10 +7,10 @@ Check all the leetcode solutions here , in different programming languages like 
 
 
 
-# Rank : $132,643$
+# Rank : $128,495$
 
 
-## [LeetCode Profile : Solved 320+ problems](https://leetcode.com/monitsharma/)
+## [LeetCode Profile : Solved 340+ problems](https://leetcode.com/monitsharma/)
 
 
 ---
@@ -21,8 +21,8 @@ Colons can be used to align columns.
 
 | Level Of Difficulty        | Solved          | Percentile  |
 | ------------- |:-------------:| -----:|
-| `Easy`      | **67** | 83.9% |
-| `Medium`      | **170**      |   92.8% |
+| `Easy`      | **74** | 85.9% |
+| `Medium`      | **176**      |   93.1% |
 | `Difficult` | **90**      |    97.3% |
 
 
