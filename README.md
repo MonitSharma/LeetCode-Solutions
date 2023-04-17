@@ -7,7 +7,7 @@ Check all the leetcode solutions here , in different programming languages like 
 
 
 
-# Rank : $118,999$
+# Rank : $113,381$
 
 
 ## [LeetCode Profile : Solved 360+ problems](https://leetcode.com/monitsharma/)
@@ -21,9 +21,9 @@ Colons can be used to align columns.
 
 | Level Of Difficulty        | Solved          | Beats  |
 | ------------- |:-------------:| -----:|
-| `Easy`      | **80** | 87.4% |
-| `Medium`      | **187**      |   93.8% |
-| `Difficult` | **95**      |    97.6% |
+| `Easy`      | **85** | 88.4% |
+| `Medium`      | **196**      |   94.2% |
+| `Difficult` | **98**      |    98.7% |
 
 
 
