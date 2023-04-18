@@ -18,3 +18,4 @@ class Solution:
                 cnt[j][ord(c) - ord("a")] += 1
         mod = 10**9 + 7
         return dfs(0, 0)
+        
