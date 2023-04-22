@@ -1,5 +1,5 @@
 # Solutions to the Leetcode Problems 
-![alt text](https://leetcode.com/static/images/LeetCode_Sharing.png)
+![alt text](https://github.com/MonitSharma/LeetCode-Solutions/blob/main/profile.png)
 
 
 
