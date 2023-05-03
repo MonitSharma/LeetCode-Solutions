@@ -13,6 +13,53 @@ Check all the leetcode solutions here , in different programming languages like 
 ## [LeetCode Profile : Solved 380+ problems](https://leetcode.com/monitsharma/)
 
 
+
+
+
+
+| Problem number | Leetcode Problem | Solution | Medium Article |
+| --- | --- | --- | --- |
+| 1 | Two Sum | |  |
+| 2 | Add Two Numbers |  | |
+| 3 | Longest Substring Without Repeating Characters |  | |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Current Stats
 
