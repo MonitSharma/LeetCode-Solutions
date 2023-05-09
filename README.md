@@ -23,6 +23,7 @@ This repository contains solutions to over 1000 Leetcode problems that are organ
 
 | Problem number | Leetcode Problem |  Medium Article |
 | --- | --- | --- |
+| 54 | Spiral Matrix |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-54-spiral-matrix-fde8c2cc7f1b) | 
 | 71 | Simplifying Path |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-71-simplifying-path-d2e606b18880) | 
 | 258 | Add Digits | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-258-add-digits-3c2f9f43a573) |
 | 319 | Bulb Switcher | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-319-bulb-switcher-18c62a0518be) | 
