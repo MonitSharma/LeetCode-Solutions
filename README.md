@@ -10,7 +10,7 @@ This repository contains solutions to over 1000 Leetcode problems that are organ
 
 ## Features
 
-- Solutions to over 300+ Leetcode problems
+- Solutions to over 400+ Leetcode problems
 - Solutions in Python, C, C++, Java, and JavaScript
 - Easy-to-read and well-commented code
 - Explanation of the problem statement and approach
