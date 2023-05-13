@@ -54,6 +54,7 @@ This repository contains solutions to over 1000 Leetcode problems that are organ
 | 2215 | Find the Difference of Two Arrays | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2215-find-the-difference-of-two-arrays-9b6584d18378) |
 | 2218 | Maximum Value of K Coins From Piles | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2218-maximum-value-of-k-coins-from-piles-4b35ce1cbedb) |
 | 2336 | Smallest Number in Infinite Set | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2336-smallest-number-in-infinite-set-585e7c0d3162) |
+| 24666 | Count Ways To Build Good Strings | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2466-count-ways-to-build-good-strings-c6f80458e7ca) |
 
 
 
