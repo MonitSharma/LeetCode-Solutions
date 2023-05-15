@@ -6,7 +6,7 @@ Leetcode Solutions Repository is a GitHub repository that provides solutions to 
 
 Leetcode is an online platform where programmers can practice their coding skills by solving algorithmic problems. The platform provides a vast array of problems, ranging from easy to hard, in various categories such as arrays, strings, linked lists, trees, graphs, and more.
 
-This repository contains solutions to over 1000 Leetcode problems that are organized by problem difficulty and category, making it easier for users to navigate and find solutions to the problems they are interested in. The solutions are written in easy-to-read and well-commented code, and each solution includes an explanation of the problem statement and approach.
+This repository contains solutions to over 400 Leetcode problems that are organized by problem difficulty and category, making it easier for users to navigate and find solutions to the problems they are interested in. The solutions are written in easy-to-read and well-commented code, and each solution includes an explanation of the problem statement and approach.
 
 ## Features
 
@@ -47,6 +47,7 @@ This repository contains solutions to over 1000 Leetcode problems that are organ
 | 1579 | Remove Max Number of Edges to Keep Graph Fully Traversable | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1579-remove-max-number-of-edges-to-keep-graph-fully-traversable-3e276f9d85ed) |
 | 1639 | Number of Ways to Form a Target String Given a Dictionary | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1639-number-of-ways-to-form-a-target-string-given-a-dictionary-a53ac51e24) |
 | 1697 | Checking the Existence of Edge Length Limited Paths | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1697-checking-the-existence-of-edge-length-limited-paths-7de15db30b09) |
+| 1721 | Swapping Nodes in a Linked List | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1721-swapping-nodes-in-a-linked-list-f4406bbb52a3) |
 | 1768 | Merge Strings Alternately | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1768-merge-strings-alternately-cb66b39a10ef) |
 | 1799 | Maximize score after N Operations | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1799-maximize-score-after-n-operations-470bc6dbb371) |
 | 1822 | Sign of the Product of an Array | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-1822-sign-of-the-product-of-an-array-17d67d0e6ad7) |
@@ -93,9 +94,9 @@ Colons can be used to align columns.
 
 | Level Of Difficulty        | Solved          | Beats  |
 | ------------- |:-------------:| -----:|
-| `Easy`      | **88** | 89% |
-| `Medium`      | **200**      |   94.3% |
-| `Difficult` | **102**      |    97.9% |
+| `Easy`      | **92** | 89.88% |
+| `Medium`      | **207**      |   94.7% |
+| `Difficult` | **105**      |    98% |
 
 
 
