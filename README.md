@@ -35,6 +35,7 @@ This repository contains solutions to over 400 Leetcode problems that are organi
 | 649 | Dota2 Senate | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-649-dota2-senate-51849b3b64cf) |
 | 662 | Maximum Width of Binary Tree | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-662-maximum-width-of-binary-tree-13d3c9f9a429)  |
 | 703 | Kth Largest element in a stream | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-703-kth-largest-element-in-a-stream-7d659841886e)  |
+| 705 | Design Hashset | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-705-design-hashset-d4fe70d565cd)  |
 | 758 | Is Graph Bipartite? | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-785-is-graph-bipartite-9e289095f576)  |
 | 837 | New 21 Game | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-837-new-21-game-a1889649ee88) |
 | 839 | Similar String Groups | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-839-similar-string-groups-a60e82e01b6) |
@@ -108,9 +109,9 @@ Colons can be used to align columns.
 
 | Level Of Difficulty        | Solved          | Beats  |
 | ------------- |:-------------:| -----:|
-| `Easy`      | **92** | 89.88% |
-| `Medium`      | **207**      |   94.7% |
-| `Difficult` | **105**      |    98% |
+| `Easy`      | **95**/**675** | 90.3% |
+| `Medium`      | **216**/**1439**      |   95.0% |
+| `Difficult` | **107**/**599**      |    98.1% |
 
 
 
