@@ -119,14 +119,13 @@ Leetcode Solutions Repository is a great resource for programmers who are lookin
 ---
 # Current Stats
 
-
-Colons can be used to align columns.
+Current rank : $91,977$
 
 | Level Of Difficulty        | Solved          | Beats  |
 | ------------- |:-------------:| -----:|
-| `Easy`      | **95**/**675** | 90.3% |
-| `Medium`      | **216**/**1439**      |   95.0% |
-| `Difficult` | **107**/**599**      |    98.1% |
+| `Easy`      | **101**/**686** | 91.3% |
+| `Medium`      | **226**/**1447**      |   95.4% |
+| `Difficult` | **106**/**603**      |    98.1% |
 
 
 
