@@ -114,6 +114,7 @@ This repository contains solutions to over 400 Leetcode problems that are organi
 | 2462 | Total Cost to Hire K Workers | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2462-total-cost-to-hire-k-workers-185a5568e8e6) |
 | 2466 | Count Ways To Build Good Strings | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2466-count-ways-to-build-good-strings-c6f80458e7ca) |
 | 2542 | Maximum Subsequence Score | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2542-maximum-subsequence-score-38d24077042e) |
+| 2551 | Put Marbles in Bags | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2551-put-marbles-in-bags-ce563a7960bf) |
 
 
 
