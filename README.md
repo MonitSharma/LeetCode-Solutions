@@ -53,6 +53,7 @@ This repository contains solutions to over 400 Leetcode problems that are organi
 | 837 | New 21 Game | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-837-new-21-game-a1889649ee88) |
 | 839 | Similar String Groups | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-839-similar-string-groups-a60e82e01b6) |
 | 859 | Buddy Strings | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-859-buddy-strings-9a68afc9171a) |
+| 863 | All Nodes Distance K in Binary Tree | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-863-all-nodes-distance-k-in-binary-tree-c2b1a84c1092) |
 | 864 | Shortest Path to Get All Keys | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-864-shortest-path-to-get-all-keys-172472b05105) |
 | 879 | Profitable Schemes | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-879-profitable-schemes-13cea3976f4b) |
 | 934 | Shortest Bridge | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-934-shortest-bridge-d1b41518af64) |
@@ -149,7 +150,7 @@ Leetcode Solutions Repository is a great resource for programmers who are lookin
 ---
 # Current Stats
 
-Current rank : 89,973
+Current rank : 83,730
 
 
 
