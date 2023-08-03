@@ -27,6 +27,7 @@ This repository contains solutions to over 400 Leetcode problems that are organi
 
 | Problem number | Leetcode Problem |  Medium Article |
 | --- | --- | --- |
+| 17 | Letter Combinations of Phone Number |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-17-letter-combinations-of-a-phone-number-8a8393cb858a) | 
 | 24 | Swap Nodes in Pairs |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-24-swap-nodes-in-pairs-51aa79e974e4) | 
 | 46 | Permutations |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-46-permutations-589c90626317 | 
 | 50 | Pow(x,n) |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-50-pow-x-n-b6f6b14eb31) | 
