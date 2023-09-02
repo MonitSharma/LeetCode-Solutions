@@ -170,6 +170,7 @@ This repository contains solutions to over 400 Leetcode problems that are organi
 | 2542 | Maximum Subsequence Score | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2542-maximum-subsequence-score-38d24077042e) |
 | 2551 | Put Marbles in Bags | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2551-put-marbles-in-bags-ce563a7960bf) |
 | 2616 | Minimize the Maximum difference in pairs | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2616-minimize-the-maximum-difference-of-pairs-2f7b59d955cb) |
+| 2707 | Extra Characters in a String | [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-2707-extra-characters-in-a-string-e134edf0b1a2) |
 
 
 
