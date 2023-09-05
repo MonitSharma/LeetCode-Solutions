@@ -10,11 +10,11 @@ Leetcode Solutions Repository is a GitHub repository that provides solutions to 
 
 Leetcode is an online platform where programmers can practice their coding skills by solving algorithmic problems. The platform provides a vast array of problems, ranging from easy to hard, in various categories such as arrays, strings, linked lists, trees, graphs, and more.
 
-This repository contains solutions to over 400 Leetcode problems that are organized by problem difficulty and category, making it easier for users to navigate and find solutions to the problems they are interested in. The solutions are written in easy-to-read and well-commented code, and each solution includes an explanation of the problem statement and approach.
+This repository contains solutions to over 500 Leetcode problems that are organized by problem difficulty and category, making it easier for users to navigate and find solutions to the problems they are interested in. The solutions are written in easy-to-read and well-commented code, and each solution includes an explanation of the problem statement and approach.
 
 ## Features
 
-- Solutions to over 400+ Leetcode problems
+- Solutions to over 500+ Leetcode problems
 - Solutions in Python, C, C++, Java, and JavaScript
 - Easy-to-read and well-commented code
 - Explanation of the problem statement and approach
