@@ -28,6 +28,7 @@ This repository contains solutions to over 500 Leetcode problems that are organi
 | Problem number | Leetcode Problem |  Medium Article |
 | --- | --- | --- |
 | 4 | Median of Two Sorted Arrays |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-4-median-of-two-sorted-arrays-3650e47191a) | 
+| 5 | Longest Palindromic Substring |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-5-longest-palindromic-substring-9600036ec7a0) | 
 | 17 | Letter Combinations of Phone Number |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-17-letter-combinations-of-a-phone-number-8a8393cb858a) | 
 | 24 | Swap Nodes in Pairs |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-24-swap-nodes-in-pairs-51aa79e974e4) | 
 | 33 | Search in Rotated Sorted Array |   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@_monitsharma/daily-leetcode-problems-problem-33-search-in-rotated-sorted-array-1c912bf5b05b) | 
