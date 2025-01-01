@@ -1,27 +1,35 @@
-[←←Back to Homepage](https://monitsharma.github.io/)
+[←← Back to Homepage](https://monitsharma.github.io/)
 
 # Leetcode Solutions Repository
 
-Leetcode Solutions Repository is a GitHub repository that provides solutions to problems found on the popular coding platform, Leetcode. The repository contains solutions in various programming languages such as Python, C, C++, Java, and JavaScript.
+A curated collection of Leetcode problem solutions in multiple programming languages including Python, C, C++, Java, and JavaScript. Explore, learn, and contribute to this ever-growing repository.
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/MonitSharma?ext=activity)
 
+---
+
 ## Introduction
 
-Leetcode is an online platform where programmers can practice their coding skills by solving algorithmic problems. The platform provides a vast array of problems, ranging from easy to hard, in various categories such as arrays, strings, linked lists, trees, graphs, and more.
+Leetcode is a popular platform for practicing algorithmic problems, ranging from beginner to expert levels. This repository contains **solutions to over 500 problems**, organized by difficulty and category, with detailed explanations and clean, well-documented code.
 
-This repository contains solutions to over 500 Leetcode problems that are organized by problem difficulty and category, making it easier for users to navigate and find solutions to the problems they are interested in. The solutions are written in easy-to-read and well-commented code, and each solution includes an explanation of the problem statement and approach.
+---
 
 ## Features
 
-- Solutions to over 500+ Leetcode problems
-- Solutions in Python, C, C++, Java, and JavaScript
-- Easy-to-read and well-commented code
-- Explanation of the problem statement and approach
-- Regularly updated with new solutions
+- 🧩 **500+ Problems Solved**: Solutions span various topics, including arrays, graphs, and dynamic programming.
+- 💻 **Multi-language Support**: Available in Python, C, C++, Java, and JavaScript.
+- 📖 **Detailed Explanations**: Each solution includes problem statements and step-by-step approaches.
+- 🔄 **Regular Updates**: New problems and solutions are added consistently.
+- 🌟 **Open for Contributions**: Join the community to enhance and expand this resource.
+
+---
 
 ## Solutions and Articles
 
+You can explore the solutions in the table below. Each row includes:
+1. The **problem number**.
+2. The **Leetcode problem title** (linked to the problem page).
+3. A link to the corresponding **Medium article** for an in-depth explanation.
 
 
 
@@ -217,46 +225,38 @@ This repository contains solutions to over 500 Leetcode problems that are organi
 
 
 
-
-
+---
 
 ## Usage
 
-This repository can be used in various ways:
+This repository can serve multiple purposes:
+1. **Reference**: Find solutions to Leetcode problems with clean, readable code.
+2. **Learning**: Understand new problem-solving approaches and algorithmic techniques.
+3. **Contribution**: Collaborate to expand the repository with new solutions.
 
-- As a reference for Leetcode problems: Users can browse the repository to find solutions to the problems they are interested in. The solutions are well-commented, making it easier for users to understand the approach and implementation.
-
-- To improve coding skills: Users can use the solutions in this repository to learn new techniques and approaches to solving algorithmic problems. The code is easy to read and understand, making it a great resource for improving coding skills.
-
-- To contribute to the repository: Users can contribute to the repository by adding solutions to new or existing problems. This can help other users who may be stuck on a particular problem.
+---
 
 ## Contributing
 
-Contributions to this repository are always welcome. Users can contribute by adding solutions to new or existing problems in any of the supported programming languages. Before contributing, please make sure to read the [contribution guidelines](CONTRIBUTING.md).
+Contributions are always welcome! Add new solutions, improve existing code, or enhance documentation. Before contributing, read the [Contribution Guidelines](CONTRIBUTING.md).
+
+---
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Users are free to use, modify, and distribute the code in this repository as long as they comply with the terms of the license.
-
-## Conclusion
-
-Leetcode Solutions Repository is a great resource for programmers who are looking to improve their coding skills or to find solutions to Leetcode problems. With over 1000 solutions in different programming languages, this repository is a valuable asset for any programmer.
-
-
+This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the content as per the license terms.
 
 ---
-# Current Stats
 
-Current rank : 83,730
+## Current Stats
 
+- **Rank**: 83,730
+- **Total Problems Solved**: 500+
 
+---
 
+## Stay Updated
 
-<li> There are new LeetCode questions every day. I'll keep updating them with solutions in different programming languages
-  
- 
+New solutions are added daily. Check back regularly for updates and stay connected!
 
-
-  
- 
-  
+---
